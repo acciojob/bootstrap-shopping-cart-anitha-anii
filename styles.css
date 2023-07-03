@@ -1,16 +1,15 @@
-
-    .product {
+  .product {
       border: 1px solid #ddd;
       padding: 10px;
       margin-bottom: 20px;
     }
 
-    .product h4 {
+    .product h2 {
       color: #3b99e0;
     }
 
     .summary {
-      border-top: 1px solid #5ea4f3;
+      border-top: 2px solid #5ea4f3;
       background-color: #f7fbff;
       padding: 10px;
       margin-top: 20px;
