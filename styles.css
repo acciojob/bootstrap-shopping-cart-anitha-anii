@@ -1,4 +1,4 @@
-  .product {
+.product {
       border: 1px solid #ddd;
       padding: 10px;
       margin-bottom: 20px;
@@ -14,5 +14,34 @@
       padding: 10px;
       margin-top: 20px;
     }
- 
+
+    .block-heading {
+      text-align: center;
+      color: #3b99e0;
+    }
+    
+    .label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .row {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    
+    .row:before,
+    .row:after {
+      display: table;
+      content: " ";
+    }
+
+    .row:after {
+      clear: both;
+    }
+    
+    h3 {
+      text-align: center;
+    }
  
